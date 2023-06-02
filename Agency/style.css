@@ -1,0 +1,338 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox {
+  overflow: hidden;
+}
+.imgbox img {
+  width: 100%;
+}
+
+section {
+  padding: 80px 0;
+}
+
+header {
+  position: fixed;
+  background-color: #212529;
+  width: 100%;
+  z-index: 1;
+}
+header .menu {
+  padding: 22px 0;
+}
+header .menu .imgbox {
+  width: 180px;
+}
+header .menu .imgbox img:hover {
+  cursor: pointer;
+}
+header .menu nav {
+  word-spacing: 38px;
+}
+header .menu nav a {
+  font-size: 16px;
+  color: white;
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+header .menu nav a:hover {
+  cursor: pointer;
+  color: #ffc800;
+}
+
+#welcome {
+  background-position: center;
+  background-image: url(Assets/header.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+#welcome .textbox {
+  position: absolute;
+  color: white;
+  text-align: center;
+}
+#welcome .textbox h1, #welcome .textbox h3 {
+  cursor: text;
+}
+#welcome .textbox h1 {
+  font-size: 76px;
+  font-weight: 900;
+  margin: 38px 0;
+  letter-spacing: 6px;
+}
+#welcome .textbox h3 {
+  font-size: 42px;
+}
+#welcome .btn {
+  padding: 20px 50px;
+  background-color: #ffc800;
+  transition: 0.8s;
+  font-weight: 700;
+}
+#welcome .btn h5 {
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 1.4px;
+  font-size: 20px;
+}
+#welcome .btn h5:hover {
+  cursor: pointer;
+}
+#welcome .wid {
+  height: 86vh;
+}
+
+#services h1 {
+  font-weight: 900;
+  font-size: 46px;
+}
+#services h3 {
+  font-size: 18px;
+  color: #6c757d;
+  margin: 18px 0;
+}
+#services h1:hover, #services h3:hover, #services h2:hover, #services h4:hover {
+  cursor: text;
+}
+#services .col-md-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+}
+#services .col-md-4 .icon {
+  display: flex;
+  justify-content: center;
+}
+#services .col-md-4 .icon i {
+  background-color: #ffc800;
+  font-size: 60px;
+  padding: 42px;
+  border-radius: 50%;
+  color: white;
+}
+#services .col-md-4 .textbox {
+  text-align: center;
+}
+#services .col-md-4 .textbox h2 {
+  font-weight: 700;
+  font-size: 28px;
+  margin: 18px 0;
+}
+#services .col-md-4 .textbox h4 {
+  color: #6c757d;
+  line-height: 1.4;
+  font-size: 18px;
+}
+
+#portfolio {
+  background-color: #f8f9fa;
+}
+#portfolio h1:hover, #portfolio h3:hover, #portfolio h2:hover, #portfolio h4:hover {
+  cursor: text;
+}
+#portfolio h1 {
+  font-weight: 900;
+  font-size: 64px;
+}
+#portfolio h3 {
+  color: #6c757d;
+  font-size: 18px;
+  margin: 16px 0;
+}
+#portfolio .imgbox {
+  position: relative;
+  margin-top: 25px;
+}
+#portfolio .imgbox img {
+  transition: 0.8s;
+}
+#portfolio .imgbox span {
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 120px;
+  color: white;
+}
+#portfolio .imgbox:hover {
+  background-color: rgba(255, 200, 0, 0.9);
+}
+#portfolio .imgbox:hover img {
+  opacity: 0.1;
+  cursor: pointer;
+}
+#portfolio .imgbox:hover span {
+  display: block;
+  cursor: pointer;
+}
+#portfolio .textbox {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #fff;
+}
+#portfolio .textbox h2 {
+  font-weight: 600;
+  font-size: 30px;
+  margin: 8px 0;
+}
+#portfolio .textbox h4 {
+  color: #6c757d;
+  font-size: 18px;
+}
+
+#team {
+  text-align: center;
+  background-color: #f8f9fa;
+}
+#team h1:hover, #team h2:hover, #team h4:hover, #team h5:hover {
+  cursor: text;
+}
+#team h1 {
+  font-weight: 700;
+  font-size: 58px;
+}
+#team h4 {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #6c757d;
+  margin: 16px 0;
+}
+#team .box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 10px;
+}
+#team .box .imgbox {
+  width: 220px;
+  border: 7px solid #e9ecef;
+  border-radius: 50%;
+}
+#team .box .textbox h2 {
+  font-weight: 700;
+  font-size: 28px;
+  margin: 10px 0;
+}
+#team .box .textbox h5 {
+  margin: 10px 0 20px;
+  font-size: 18px;
+  color: #6c757d;
+}
+#team .box .icon ul {
+  display: flex;
+}
+#team .box .icon ul li {
+  border-radius: 50%;
+  background-color: #212529;
+  padding: 14px;
+  margin: 0 12px;
+  transition: 0.3s;
+}
+#team .box .icon ul li:hover {
+  cursor: pointer;
+  opacity: 0.4;
+}
+#team .box .icon ul li i {
+  color: white;
+}
+#team .box .icon ul li i:hover {
+  cursor: pointer;
+}
+#team .wid {
+  width: 800px;
+}
+
+#company .col-md-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#company .col-md-3 .imgbox {
+  width: 150px;
+}
+#company .col-md-3 .imgbox img:hover {
+  cursor: pointer;
+}
+
+#contact {
+  background-color: #212529;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  background-image: url(Assets//map.png);
+}
+#contact h1 {
+  font-size: 52px;
+  color: white;
+  font-weight: 700;
+}
+#contact h3 {
+  color: #fff;
+  margin: 20px 0 0;
+  font-size: 18px;
+}
+#contact input, #contact textarea {
+  font-weight: 600;
+  color: #333;
+  padding: 20px;
+  font-size: 20px;
+}
+#contact input:hover, #contact textarea:hover {
+  cursor: text;
+}
+#contact .center-input {
+  margin: 20px 0;
+}
+#contact textarea {
+  width: 100%;
+  height: 100%;
+}
+#contact .btn {
+  background-color: #ffc800;
+  opacity: 0.6;
+  padding: 20px 42px;
+  margin-top: 44px;
+}
+#contact .btn:hover {
+  cursor: auto;
+}
+#contact .btn h5 {
+  color: #fff;
+  font-size: 20px;
+}
+
+footer {
+  padding: 30px 0;
+}
+footer h1:hover {
+  cursor: text;
+}
+footer .icon {
+  margin-right: 20px;
+  padding: 12px;
+  background-color: #1a1818;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+footer .icon:hover {
+  cursor: pointer;
+  opacity: 0.4;
+}
+footer .icon i {
+  color: white;
+}
+footer .icon i:hover {
+  cursor: pointer;
+}
+footer .link a {
+  color: #333;
+  margin-right: 20px;
+}
+footer .link a:hover {
+  cursor: text;
+}/*# sourceMappingURL=style.css.map */
