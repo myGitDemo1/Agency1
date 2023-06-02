@@ -185,6 +185,80 @@ header .menu nav a:hover {
   font-size: 18px;
 }
 
+#aboutt h1:hover, #aboutt h2:hover, #aboutt h3:hover, #aboutt h4:hover, #aboutt p:hover {
+  cursor: text;
+}
+#aboutt .col-md-12 {
+  padding: 0;
+}
+#aboutt h1 {
+  font-weight: 600;
+  font-size: 52px;
+}
+#aboutt h3 {
+  color: #6c757d;
+  margin: 20px 0;
+  font-size: 18px;
+}
+#aboutt .box {
+  display: flex;
+  padding: 8px 250px;
+  margin: 50px 0;
+}
+#aboutt .box .textbox {
+  width: 430px;
+  padding: 8px 16px;
+}
+#aboutt .box .textbox h2, #aboutt .box .textbox h4 {
+  font-weight: 600;
+  font-size: 30px;
+  margin: 8px 0 12px;
+}
+#aboutt .box .textbox p {
+  line-height: 1.4;
+  font-size: 18px;
+  color: #6c757d;
+}
+#aboutt .box .imgbox {
+  width: 190px;
+  border: 7px solid #e9ecef;
+  border-radius: 50%;
+  height: 100%;
+}
+#aboutt .wid13 {
+  text-align: end;
+  align-items: center;
+}
+#aboutt .wid24 {
+  justify-content: end;
+  align-items: center;
+}
+#aboutt .last-circle {
+  justify-content: center;
+  text-align: center;
+}
+#aboutt .last-circle .imgbox {
+  background-color: #ffc800;
+}
+#aboutt .last-circle .imgbox h5 {
+  padding: 50px;
+  line-height: 1.3;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  height: 180px;
+}
+@media (max-width: 992px) {
+  #aboutt .box {
+    flex-direction: column;
+    text-align: center;
+  }
+  #aboutt .last-circle {
+    display: flex;
+    align-items: center;
+  }
+}
+
 #team {
   text-align: center;
   background-color: #f8f9fa;
