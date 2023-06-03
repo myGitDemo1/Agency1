@@ -60,8 +60,14 @@ header .menu .icon {
   color: white;
   padding: 10px;
 }
-header .menu .icon i {
-  margin-left: 10px;
+header .menu .icon:hover {
+  cursor: pointer;
+}
+header .menu .icon i, header .menu .icon h5 {
+  margin: 0 3px;
+}
+header .menu .icon i:hover, header .menu .icon h5:hover {
+  cursor: pointer;
 }
 @media (min-width: 300px) {
   header nav {
@@ -85,8 +91,9 @@ header .menu .icon i {
 #welcome .textbox {
   position: absolute;
   text-align: center;
+  padding: 0 20px;
 }
-#welcome .textbox h1, #welcome .textbox h3, #welcome .textbox h5 {
+#welcome .textbox h1, #welcome .textbox h2, #welcome .textbox h5 {
   color: white;
 }
 #welcome .textbox h1 {
@@ -94,7 +101,7 @@ header .menu .icon i {
   margin: 38px 0;
   letter-spacing: 6px;
 }
-#welcome .textbox h3 {
+#welcome .textbox h2 {
   font-size: 42px;
 }
 #welcome .btn {
