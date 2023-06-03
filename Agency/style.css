@@ -128,13 +128,8 @@ header .menu .icon i:hover, header .menu .icon h5:hover {
 #services .col-md-4 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   margin-top: 30px;
-}
-#services .col-md-4 .icon {
-  display: flex;
-  justify-content: center;
 }
 #services .col-md-4 .icon i {
   background-color: #ffc800;
@@ -197,8 +192,8 @@ header .menu .icon i:hover, header .menu .icon h5:hover {
 }
 #portfolio .textbox {
   text-align: center;
-  padding: 20px 0;
   background-color: #fff;
+  padding: 20px 0;
 }
 #portfolio .textbox h2 {
   font-weight: 600;
@@ -210,70 +205,69 @@ header .menu .icon i:hover, header .menu .icon h5:hover {
   font-size: 18px;
 }
 
-#aboutt h1:hover, #aboutt h2:hover, #aboutt h3:hover, #aboutt h4:hover, #aboutt p:hover {
+#about h1:hover, #about h2:hover, #about h3:hover, #about h4:hover, #about p:hover {
   cursor: text;
 }
-#aboutt .box {
+#about .box {
   display: flex;
   padding: 8px 94px;
-  margin: 50px 0;
+  margin: 30px 0;
 }
-#aboutt .box .textbox {
+#about .box .textbox {
   width: 400px;
   padding: 8px 16px;
   margin: 0 30px;
 }
-#aboutt .box .textbox h2, #aboutt .box .textbox h4 {
+#about .box .textbox h2, #about .box .textbox h4 {
   font-weight: 600;
   font-size: 30px;
   margin: 8px 0 12px;
 }
-#aboutt .box .textbox p {
+#about .box .textbox p {
   line-height: 1.4;
   font-size: 18px;
   color: #6c757d;
 }
-#aboutt .box .imgbox {
+#about .box .imgbox {
   width: 190px;
   border: 7px solid #e9ecef;
   border-radius: 50%;
   height: 100%;
 }
-#aboutt .wid13 {
+#about .wid13 {
   text-align: end;
   align-items: center;
 }
-#aboutt .wid24 {
+#about .wid24 {
   justify-content: end;
   align-items: center;
 }
-#aboutt .last-circle {
+#about .last-circle {
   justify-content: center;
   text-align: center;
 }
-#aboutt .last-circle .imgbox {
+#about .last-circle .imgbox {
   background-color: #ffc800;
 }
-#aboutt .last-circle .imgbox h5 {
+#about .last-circle .imgbox h5 {
   padding: 50px;
   line-height: 1.3;
   color: #fff;
   font-size: 22px;
   font-weight: 700;
-  height: 180px;
 }
 @media (max-width: 992px) {
-  #aboutt .box {
+  #about .box {
     flex-direction: column;
     text-align: center;
   }
-  #aboutt .last-circle {
+  #about .last-circle {
     display: flex;
     align-items: center;
   }
 }
 @media (max-width: 576px) {
-  #aboutt .box .textbox {
+  #about .box .textbox {
     width: 280px;
   }
 }
@@ -287,9 +281,9 @@ header .menu .icon i:hover, header .menu .icon h5:hover {
 }
 #team .box {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  padding: 60px 10px;
+  align-items: center;
+  padding: 30px 10px;
 }
 #team .box .imgbox {
   width: 220px;
@@ -306,24 +300,24 @@ header .menu .icon i:hover, header .menu .icon h5:hover {
   font-size: 18px;
   color: #6c757d;
 }
-#team .box .icon ul {
+#team .box ul {
   display: flex;
 }
-#team .box .icon ul li {
+#team .box ul li {
   border-radius: 50%;
   background-color: #212529;
   padding: 14px;
   margin: 0 12px;
   transition: 0.3s;
 }
-#team .box .icon ul li:hover {
+#team .box ul li:hover {
   cursor: pointer;
   opacity: 0.4;
 }
-#team .box .icon ul li i {
+#team .box ul li i {
   color: white;
 }
-#team .box .icon ul li i:hover {
+#team .box ul li i:hover {
   cursor: pointer;
 }
 #team .wid {
