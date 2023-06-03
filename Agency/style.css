@@ -351,11 +351,10 @@ header .menu .icon i:hover, header .menu .icon h5:hover {
 }
 
 #contact {
-  background-color: #212529;
-  background-size: cover;
-  background-position: center center;
-  height: 100vh;
   background-image: url(Assets//map.png);
+  background-size: cover;
+  background-position: center;
+  background-color: #212529;
 }
 #contact h1, #contact h3 {
   color: white;
@@ -388,6 +387,11 @@ header .menu .icon i:hover, header .menu .icon h5:hover {
 #contact .btn h5 {
   color: #fff;
   font-size: 20px;
+}
+@media (max-width: 768px) {
+  #contact textarea {
+    margin-top: 20px;
+  }
 }
 
 footer {
