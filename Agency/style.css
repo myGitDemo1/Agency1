@@ -42,6 +42,29 @@ header .menu nav a:hover {
   cursor: pointer;
   color: #ffc800;
 }
+header .menu .icon {
+  display: flex;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+}
+header .menu .icon i {
+  margin-left: 10px;
+}
+@media (min-width: 300px) {
+  header nav {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  header .menu nav {
+    display: block;
+  }
+  header .menu .icon {
+    display: none;
+  }
+}
 
 #welcome {
   background-position: center;
@@ -101,7 +124,8 @@ header .menu nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 50vh;
+  align-items: center;
+  margin-top: 30px;
 }
 #services .col-md-4 .icon {
   display: flex;
@@ -126,6 +150,11 @@ header .menu nav a:hover {
   color: #6c757d;
   line-height: 1.4;
   font-size: 18px;
+}
+@media (max-width: 768px) {
+  #services .textbox {
+    width: 340px;
+  }
 }
 
 #portfolio {
@@ -199,11 +228,11 @@ header .menu nav a:hover {
 }
 #aboutt .box {
   display: flex;
-  padding: 8px 200px;
+  padding: 8px 94px;
   margin: 50px 0;
 }
 #aboutt .box .textbox {
-  width: 430px;
+  width: 400px;
   padding: 8px 16px;
   margin: 0 30px;
 }
@@ -254,6 +283,11 @@ header .menu nav a:hover {
   #aboutt .last-circle {
     display: flex;
     align-items: center;
+  }
+}
+@media (max-width: 576px) {
+  #aboutt .box .textbox {
+    width: 280px;
   }
 }
 
