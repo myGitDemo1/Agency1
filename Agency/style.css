@@ -14,6 +14,17 @@ section {
   padding: 80px 0;
 }
 
+h1 {
+  font-weight: 900;
+  font-size: 46px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #6c757d;
+  margin: 14px 0;
+}
+
 header {
   position: fixed;
   background-color: #212529;
@@ -108,15 +119,6 @@ header .menu .icon i {
   height: 86vh;
 }
 
-#services h1 {
-  font-weight: 900;
-  font-size: 46px;
-}
-#services h3 {
-  font-size: 18px;
-  color: #6c757d;
-  margin: 18px 0;
-}
 #services h1:hover, #services h3:hover, #services h2:hover, #services h4:hover {
   cursor: text;
 }
@@ -153,7 +155,7 @@ header .menu .icon i {
 }
 @media (max-width: 768px) {
   #services .textbox {
-    width: 340px;
+    width: 300px;
   }
 }
 
@@ -162,15 +164,6 @@ header .menu .icon i {
 }
 #portfolio h1:hover, #portfolio h3:hover, #portfolio h2:hover, #portfolio h4:hover {
   cursor: text;
-}
-#portfolio h1 {
-  font-weight: 900;
-  font-size: 64px;
-}
-#portfolio h3 {
-  color: #6c757d;
-  font-size: 18px;
-  margin: 16px 0;
 }
 #portfolio .imgbox {
   position: relative;
@@ -216,15 +209,6 @@ header .menu .icon i {
 
 #aboutt h1:hover, #aboutt h2:hover, #aboutt h3:hover, #aboutt h4:hover, #aboutt p:hover {
   cursor: text;
-}
-#aboutt h1 {
-  font-weight: 600;
-  font-size: 52px;
-}
-#aboutt h3 {
-  color: #6c757d;
-  margin: 20px 0;
-  font-size: 18px;
 }
 #aboutt .box {
   display: flex;
@@ -298,16 +282,6 @@ header .menu .icon i {
 #team h1:hover, #team h2:hover, #team h4:hover, #team h5:hover {
   cursor: text;
 }
-#team h1 {
-  font-weight: 700;
-  font-size: 58px;
-}
-#team h4 {
-  font-size: 18px;
-  line-height: 1.4;
-  color: #6c757d;
-  margin: 16px 0;
-}
 #team .box {
   display: flex;
   align-items: center;
@@ -372,15 +346,8 @@ header .menu .icon i {
   height: 100vh;
   background-image: url(Assets//map.png);
 }
-#contact h1 {
-  font-size: 52px;
+#contact h1, #contact h3 {
   color: white;
-  font-weight: 700;
-}
-#contact h3 {
-  color: #fff;
-  margin: 20px 0 0;
-  font-size: 18px;
 }
 #contact input, #contact textarea {
   font-weight: 600;
