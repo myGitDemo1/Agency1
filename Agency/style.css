@@ -321,9 +321,18 @@ header .menu .icon i:hover, header .menu .icon h5:hover {
   cursor: pointer;
 }
 #team .wid {
-  width: 800px;
+  width: 780px;
+}
+#team .wid h4 {
+  line-height: 1.4;
+  color: #6c757d;
+  font-size: 17px;
+  margin-top: 14px;
 }
 
+#company {
+  padding: 50px 0;
+}
 #company .col-md-3 {
   display: flex;
   justify-content: center;
@@ -334,6 +343,11 @@ header .menu .icon i:hover, header .menu .icon h5:hover {
 }
 #company .col-md-3 .imgbox img:hover {
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  #company .imgbox {
+    margin-top: 40px;
+  }
 }
 
 #contact {
