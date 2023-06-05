@@ -356,24 +356,22 @@ header .menu .icon i:hover, header .menu .icon h5:hover {
   background-position: center;
   background-color: #212529;
 }
-#contact h1, #contact h3 {
+#contact h1, #contact h3, #contact textarea {
   color: white;
+}
+#contact h1:hover, #contact h3:hover, #contact textarea:hover {
+  cursor: text;
 }
 #contact input, #contact textarea {
   font-weight: 600;
   color: #333;
   padding: 20px;
   font-size: 20px;
-}
-#contact input:hover, #contact textarea:hover {
-  cursor: text;
+  height: 100%;
+  width: 100%;
 }
 #contact .center-input {
   margin: 20px 0;
-}
-#contact textarea {
-  width: 100%;
-  height: 100%;
 }
 #contact .btn {
   background-color: #ffc800;
