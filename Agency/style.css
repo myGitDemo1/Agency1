@@ -40,13 +40,10 @@ header .menu .imgbox {
 header .menu .imgbox img:hover {
   cursor: pointer;
 }
-header .menu nav {
-  word-spacing: 38px;
-}
 header .menu nav a {
+  margin-right: 44px;
   font-size: 16px;
   color: white;
-  letter-spacing: 3px;
   transition: 0.6s;
 }
 header .menu nav a:hover {
@@ -177,10 +174,10 @@ header .menu .icon i:hover, header .menu .icon h5:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 120px;
-  color: white;
+  color: #fff;
 }
 #portfolio .imgbox:hover {
-  background-color: rgba(255, 200, 0, 0.9);
+  background-color: rgb(255, 200, 0);
 }
 #portfolio .imgbox:hover img {
   opacity: 0.1;
