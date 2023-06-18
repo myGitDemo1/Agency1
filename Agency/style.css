@@ -86,7 +86,6 @@ header .menu .icon i:hover, header .menu .icon h5:hover {
   background-size: cover;
 }
 #welcome .textbox {
-  position: absolute;
   text-align: center;
   padding: 0 20px;
 }
