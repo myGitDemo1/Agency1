@@ -202,9 +202,6 @@ header .menu .icon i:hover, header .menu .icon h5:hover {
   cursor: text;
 }
 
-#about h1:hover, #about h2:hover, #about h3:hover, #about h4:hover, #about p:hover {
-  cursor: text;
-}
 #about .box {
   display: flex;
   padding: 8px 94px;
@@ -252,6 +249,9 @@ header .menu .icon i:hover, header .menu .icon h5:hover {
   color: #fff;
   font-size: 22px;
   font-weight: 700;
+}
+#about h1:hover, #about h2:hover, #about h3:hover, #about h4:hover, #about p:hover {
+  cursor: text;
 }
 @media (max-width: 992px) {
   #about .box {
