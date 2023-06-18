@@ -157,9 +157,6 @@ header .menu .icon i:hover, header .menu .icon h5:hover {
 #portfolio {
   background-color: #f8f9fa;
 }
-#portfolio h1:hover, #portfolio h3:hover, #portfolio h2:hover, #portfolio h4:hover {
-  cursor: text;
-}
 #portfolio .imgbox {
   position: relative;
   margin-top: 25px;
@@ -200,6 +197,9 @@ header .menu .icon i:hover, header .menu .icon h5:hover {
 #portfolio .textbox h4 {
   color: #6c757d;
   font-size: 18px;
+}
+#portfolio h1:hover, #portfolio h3:hover, #portfolio h2:hover, #portfolio h4:hover {
+  cursor: text;
 }
 
 #about h1:hover, #about h2:hover, #about h3:hover, #about h4:hover, #about p:hover {
