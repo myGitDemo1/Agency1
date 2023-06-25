@@ -40,6 +40,9 @@ header .menu .imgbox {
 header .menu .imgbox img:hover {
   cursor: pointer;
 }
+header .menu nav {
+  display: none;
+}
 header .menu nav a {
   margin-right: 32px;
   font-size: 16px;
@@ -51,15 +54,12 @@ header .menu nav a:hover {
   cursor: pointer;
   color: #ffc800;
 }
-header .menu nav .fa-xmark {
-  display: none;
-}
 header .menu .icon {
-  display: flex;
   border: 1px solid #fff;
   border-radius: 4px;
   color: white;
   padding: 10px;
+  display: flex;
 }
 header .menu .icon:hover {
   cursor: pointer;
@@ -70,15 +70,7 @@ header .menu .icon i, header .menu .icon h5 {
 header .menu .icon i:hover, header .menu .icon h5:hover {
   cursor: pointer;
 }
-@media (max-width: 992px) {
-  header .menu nav {
-    display: none !important;
-  }
-}
 @media (min-width: 992px) {
-  header .menu {
-    flex-direction: row;
-  }
   header .menu nav {
     display: block;
   }
@@ -106,6 +98,7 @@ header .menu .icon i:hover, header .menu .icon h5:hover {
 }
 #welcome .textbox h2 {
   font-size: 42px;
+  margin: 20px 0;
 }
 #welcome .btn {
   padding: 20px 50px;
