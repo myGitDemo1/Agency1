@@ -16,7 +16,7 @@ header
                 font-size: 16px
                 color: #ffff
                 transition: .6s
-                letter-spacing: 3px
+                letter-spacing: 4px
                 &:hover
                     cursor: pointer
                     color: #ffc800
@@ -33,10 +33,12 @@ header
                 &:hover
                     cursor: pointer
     @media (min-width: 300px)
-        nav
-            display: none
+        .menu
+            nav
+                display: none
     @media (min-width: 992px)
         .menu
+            flex-direction: row
             nav
                 display: block
             .icon

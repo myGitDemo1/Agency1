@@ -45,7 +45,7 @@ header .menu nav a {
   font-size: 16px;
   color: white;
   transition: 0.6s;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 }
 header .menu nav a:hover {
   cursor: pointer;
@@ -68,11 +68,14 @@ header .menu .icon i:hover, header .menu .icon h5:hover {
   cursor: pointer;
 }
 @media (min-width: 300px) {
-  header nav {
+  header .menu nav {
     display: none;
   }
 }
 @media (min-width: 992px) {
+  header .menu {
+    flex-direction: row;
+  }
   header .menu nav {
     display: block;
   }
