@@ -51,6 +51,9 @@ header .menu nav a:hover {
   cursor: pointer;
   color: #ffc800;
 }
+header .menu nav .fa-xmark {
+  display: none;
+}
 header .menu .icon {
   display: flex;
   border: 1px solid #fff;
@@ -67,9 +70,9 @@ header .menu .icon i, header .menu .icon h5 {
 header .menu .icon i:hover, header .menu .icon h5:hover {
   cursor: pointer;
 }
-@media (min-width: 300px) {
+@media (max-width: 992px) {
   header .menu nav {
-    display: none;
+    display: none !important;
   }
 }
 @media (min-width: 992px) {

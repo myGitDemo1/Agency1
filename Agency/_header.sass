@@ -20,6 +20,8 @@ header
                 &:hover
                     cursor: pointer
                     color: #ffc800
+            .fa-xmark
+                display: none
         .icon
             display: flex
             border: 1px solid #fff
@@ -32,10 +34,28 @@ header
                 margin: 0 3px
                 &:hover
                     cursor: pointer
-    @media (min-width: 300px)
+    @media (max-width: 992px)
         .menu
             nav
                 display: none
+       /*  .menu
+        text-align: center
+        nav
+        display: none
+        &:hover
+        flex-direction: column
+        // height: 30vh
+        nav
+        display: block
+        a
+        display: flex
+        flex-direction: column
+        margin: 12px 0
+        .fa-xmark
+        display: block
+        color: #ffff
+        .icon
+        display: none */
     @media (min-width: 992px)
         .menu
             flex-direction: row
