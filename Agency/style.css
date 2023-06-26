@@ -25,9 +25,18 @@ h3 {
   margin: 14px 0;
 }
 
+.col-md-12 {
+  text-align: center;
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover {
+  cursor: text;
+}
+
 header {
   position: fixed;
   width: 100%;
+  z-index: 1;
   background-color: #212529;
 }
 header .menu {
@@ -127,14 +136,12 @@ header .menu .icon i, header .menu .icon h5 {
   height: 79vh;
 }
 
-#services {
-  text-align: center;
-}
 #services .col-md-4 {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
+  text-align: center;
 }
 #services .col-md-4 i {
   background-color: #ffc800;
@@ -153,11 +160,8 @@ header .menu .icon i, header .menu .icon h5 {
   line-height: 1.4;
   font-size: 18px;
 }
-#services h1:hover, #services h3:hover, #services h2:hover, #services h4:hover {
-  cursor: text;
-}
 @media (max-width: 768px) {
-  #services .textbox {
+  #services .text {
     width: 300px;
   }
 }
@@ -206,9 +210,6 @@ header .menu .icon i, header .menu .icon h5 {
   color: #6c757d;
   font-size: 18px;
 }
-#portfolio h1:hover, #portfolio h3:hover, #portfolio h2:hover, #portfolio h4:hover {
-  cursor: text;
-}
 
 #about .box {
   display: flex;
@@ -243,6 +244,7 @@ header .menu .icon i, header .menu .icon h5 {
 #about .wid24 {
   justify-content: end;
   align-items: center;
+  text-align: start;
 }
 #about .last-circle {
   justify-content: center;
@@ -257,9 +259,6 @@ header .menu .icon i, header .menu .icon h5 {
   color: #fff;
   font-size: 22px;
   font-weight: 700;
-}
-#about h1:hover, #about h2:hover, #about h3:hover, #about h4:hover, #about p:hover {
-  cursor: text;
 }
 @media (max-width: 992px) {
   #about .box {
@@ -278,11 +277,7 @@ header .menu .icon i, header .menu .icon h5 {
 }
 
 #team {
-  text-align: center;
   background-color: #f8f9fa;
-}
-#team h1:hover, #team h2:hover, #team h4:hover, #team h5:hover {
-  cursor: text;
 }
 #team .box {
   display: flex;
@@ -294,6 +289,9 @@ header .menu .icon i, header .menu .icon h5 {
   width: 220px;
   border: 7px solid #e9ecef;
   border-radius: 50%;
+}
+#team .box .textbox {
+  text-align: center;
 }
 #team .box .textbox h2 {
   font-weight: 700;
@@ -359,13 +357,8 @@ header .menu .icon i, header .menu .icon h5 {
   background-image: url(Assets//map.png);
   background-size: cover;
   background-position: center;
-  background-color: #212529;
-}
-#contact h1, #contact h3, #contact textarea {
+  background-color: rgb(33, 37, 41);
   color: white;
-}
-#contact h1:hover, #contact h3:hover, #contact textarea:hover {
-  cursor: text;
 }
 #contact input, #contact textarea {
   font-weight: 600;
